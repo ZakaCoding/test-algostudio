@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\PenjualanController;
 use App\Http\Controllers\ProfileController;
+use App\Models\Barang;
 use App\Models\Penjualan;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
@@ -40,6 +41,15 @@ Route::get('/dashboard', function () {
 
     return view('dashboard', compact('penjualan'));
 })->middleware(['auth', 'verified'])->name('dashboard');
+
+Route::get(
+    'product',
+    function () {
+        $product = Barang::get();
+
+        return view('product', compact('product'));
+    }
+)->middleware('auth')->name('product');
 
 Route::get(
     'penjualan/data/{id}',
