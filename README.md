@@ -1,6 +1,6 @@
 # Test Algostudio - Fullstack Engineer
 
-Web based application [Computer Sales](https://docs.google.com/document/d/1SZz7pRIynFnfIAzbELjTJHNlNnqOj3VV/edit)
+Web based application [Computer Sales](https://docs.google.com/document/d/1SZz7pRIynFnfIAzbELjTJHNlNnqOj3VV/edit). Build with Laravel
 ## Getting Started
 
 These instructions will give you a copy of the project up and running on
@@ -60,7 +60,7 @@ and opened on web browser
 ![Alt text](screenshot/welcome.png)
 ## Running the tests
 
-For using this web application you need to have access. below this list all users (admin and supervisor).
+For using this web application you need to have access. below this list all users.
 
 ### Admin
 | Email  | Password |
@@ -74,7 +74,7 @@ For using this web application you need to have access. below this list all user
 This simple manual book for operating this web application
 
 #### Admin Dashboard
-On this page only show dummy data from sales computer. this have not have CRUD system, except on Login and Register.
+On this page only show dummy data from sales computer and not have CRUD system, except on Login and Register.
 
 #### Screenshot
 ![Alt text](screenshot/dashboard-1.png)
@@ -88,8 +88,8 @@ On this page only show dummy data from sales computer. this have not have CRUD s
 
 ## Authors
 
-  - **Zaka M Noor** - *Full stack web developer* -
-    [ZakaCoding](https://zakacoding.github.io)
+  - **Zaka M Noor** - *Full stack web developer*
+  - [ZakaCoding](https://zakacoding.github.io)
 
 See also my latest project
 [open-cmap](https://open-cmap.fly.dev)
